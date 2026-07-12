@@ -42,3 +42,5 @@ Thumbs.db
 # --- local-only documentation (not meant to be pushed / deployed) ---
 LEARN.md
 SETUP.md
+EDUCATIONAL_README.md
+CODING_WALKTHROUGH.md
