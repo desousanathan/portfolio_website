@@ -41,7 +41,7 @@ export async function fetchGitHubRepos(username: string): Promise<GitHubRepo[]> 
     return repos
       .filter(repo => !repo.fork)
       .sort((a, b) => b.stargazers_count - a.stargazers_count)
-      .slice(0, 9); // Show top 9 repos
+      .slice(0, 12); // Show top 12 repos
   } catch (error) {
     console.error('Failed to fetch GitHub repos:', error);
     return [];
